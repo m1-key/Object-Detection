@@ -60,7 +60,7 @@ while True :
     cv2.imshow("threshhold",thresh)
 
     key = cv2.waitKey(2)
-
+    # this is done so that when user press 'q' then this loop terminates .
     if key == ord("q"):
         break
 
